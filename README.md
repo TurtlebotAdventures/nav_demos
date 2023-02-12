@@ -51,7 +51,7 @@ _Note:_ For GT students, To check if it is available on the workstation, just tr
 A generic example would be to type the following:
 > roslaunch turtlebot_g
 
-then hit tab.  If there is a package called ``turtlebot_gazebo`` then it will automatically be filled in.  If there are multiple packages that begin with ```turtlebot_g``, then they will be listed for you to pick from.  Once enough of the name has been typed in to provide a unique search pattern, then hitting tab twice will autocomplete.  Generally, command line folk are lazy and memorize how much to type before tab completion can kick in and save time. 
+then hit tab.  If there is a package called ``turtlebot_gazebo`` then it will automatically be filled in.  If there are multiple packages that begin with ``turtlebot_g``, then they will be listed for you to pick from.  Once enough of the name has been typed in to provide a unique search pattern, then hitting tab twice will autocomplete.  Generally, command line folk are lazy and memorize how much to type before tab completion can kick in and save time. 
 
 
 _Note:_ Of course, if the ROS paths are not setup, then nothing will be found.  Make sure that the path environments have been correctly setup.  For GT students using the lab workstations, the path configuration is automatically done as part of a common setup for all users.
