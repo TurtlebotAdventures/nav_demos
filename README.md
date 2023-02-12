@@ -42,6 +42,21 @@ package in your own launch files, you will have much more flexibility if you cre
 launch as few as possible; keep in mind that everything in a launch file has to be started and stopped together* (*This isn't completely true, but to keep things 
 simple, pretend that it is).
 
+## Use
+
+The repository follows the ROS workspace path structure.  To use, clone into your ROS catkin workspace. 
+
+_Note:_ For GT students, To check if it is available on the workstation, just try to launch one of the demos. In reality, what a seasoned person would do is to partially type out the launch command then hit tab twice to see if the package is recognized and available.  Doing so assumes that you've setup your environment variables to point to ROS and your ROS workspace.
+
+A generic example would be to type the following:
+> roslaunch turtlebot_g
+
+then hit tab.  If there is a package called ``turtlebot_gazebo`` then it will automatically be filled in.  If there are multiple packages that begin with ```turtlebot_g``, then they will be listed for you to pick from.  Once enough of the name has been typed in to provide a unique search pattern, then hitting tab twice will autocomplete.  Generally, command line folk are lazy and memorize how much to type before tab completion can kick in and save time. 
+
+
+_Note:_ Of course, if the ROS paths are not setup, then nothing will be found.  Make sure that the path environments have been correctly setup.  For GT students using the lab workstations, the path configuration is automatically done as part of a common setup for all users.
+
+
 ### Translation to Embodied Robotics
 
 The examples are intended as self-contained demos for Gazebo and not for a real Turtlebot. What else is needed to run on the real robot? Try making your own launch 
