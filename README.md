@@ -2,7 +2,7 @@
 
 This repository provides ROS workspace configurations for running Turtlebot 2 demosin a Gazebo simulation environment.  It relies also on a [fake localization package](https://github.com/TurtlebotAdventures/gazebo_fake_localization.git) that provides robot 
 odometry for the demos where the robot does not have a localization module.   The package provides a topic that publishes perfect localization from the Gazebo 
-robot state.  Taken together, the repositories provide a good entry point for understanding how ROS combines distinct modules in support of robot functionality.  
+robot state.  Taken together, the repositories provide a good entry point for understanding how ROS combines distinct modules in support of robot functionality.
 Initial demos involve more user input to guide the robot, while more advanced ones require less and involve more robot autonomy. Once they are fully understood, you 
 should be in a good position to role out your own robot autonomy stack and to create customized code to suports task-level autonomy.  To run on the real robot would simply 
 involve launching everything (but the Gazebo part) on an actual robot in its deployment environment.
