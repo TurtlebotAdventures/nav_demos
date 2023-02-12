@@ -58,3 +58,5 @@ Using git ensures that you have a record of what you've changed and prevents you
 It is recommended that your repo is structured like a proper ROS package; this will make using your launch files much easier
 ([instructions here](http://wiki.ros.org/ROS/Tutorials/CreatingPackage)).  There are some exceptions to this rule, but early on these differencs are subtle to 
 appreciate.
+
+  _Note:_ For GT students, you might have to eventually merge your code with the team codebase.  In that case, the repo can easily be transferred to a new location, or integrated into an existing ROS workspace if it cleaves to the workspace directory structure. 
