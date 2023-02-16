@@ -78,4 +78,4 @@ appreciate.
   
   ## Turtlebot 2 and latest Ubuntu/ROS versions (18.04, 20.04, etc)
   
-  The Turtlebot 2 robot model is no longer part of the default installation.  To put it on your machine, consider the [noetic-turtlebot repository](https://github.com/ivaROS/noetic_turtlebot) and the indicated command line execution string.  The default install path is ``/opt/ros/ivalab`` which you might want to change.
+  The Turtlebot 2 robot model is no longer part of the default installation.  To put it on your machine, consider the [noetic-turtlebot repository](https://github.com/ivaROS/noetic_turtlebot) and the indicated command line execution string.  The default install path is ``/opt/ros/ivalab`` which you might want to change.  Running it also installs the fake localization and navigation demos (this one) repositories.
