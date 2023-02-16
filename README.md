@@ -75,3 +75,7 @@ It is recommended that your repo is structured like a proper ROS package; this w
 appreciate.
 
   _Note:_ For GT students, you might have to eventually merge your code with the team codebase.  In that case, the repo can easily be transferred to a new location, or integrated into an existing ROS workspace if it cleaves to the workspace directory structure. 
+  
+  ## Turtlebot 2 and latest Ubuntu/ROS versions (18.04, 20.04, etc)
+  
+  The Turtlebot 2 robot model is no longer part of the default installation.  To put it on your machine, consider the [noetic-turtlebot repository](https://github.com/ivaROS/noetic_turtlebot) and the indicated command line execution string.  The default install path is ``/opt/ros/ivalab`` which you might want to change.
